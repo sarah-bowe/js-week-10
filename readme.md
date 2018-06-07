@@ -1,4 +1,4 @@
-# JavaScript Week 9 - Arrays and Destructuring
+# JavaScript Week 10 - Self-Similarity
 
 Your mission: Pass the Tests!
 
@@ -8,7 +8,7 @@ Your mission: Pass the Tests!
 2. Clone it to your machine, then:
 
 ```console
-cd js-week-09
+cd js-week-10
 npm install
 ```
 
@@ -20,6 +20,6 @@ npm test
 
 4. Pass the tests by following the instructions in `index.js`.
 
-Save your changes as you go, and keep checking your test results with `yarn test`.
+Save your changes as you go, and keep checking your test results with `npm test`.
 
 Have fun!
