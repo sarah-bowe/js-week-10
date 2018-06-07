@@ -17,7 +17,7 @@ test('what should be the same in makeItTrue is the same', () => {
   const args = match[1]
   const frst = match[2].match(/const \[first\] = \[\]/)
   const rtrn = match[2].match(/return first ===/)
-  expect(args).toBeUndefined()
+  expect(args).toBe('')
   expect(frst).toBeTruthy()
   expect(rtrn).toBeTruthy()
 })
@@ -65,7 +65,8 @@ test('truthify returns correct boolean values', () => {
 test('truthifyAll returns correct Array of boolean values', () => {
   const expected = [false, true, true, false, true, false]
   const actual = truthifyAll([null, true, 25, false, 'foo', 0])
-  expect(expected).toMatchObject(expected)
+  expect(actual).toMatchObject(expected)
+  expect([]).toMatchObject([])
 })
 
 test('truthifyAll uses the provided parameters', () => {

@@ -46,6 +46,7 @@ function truthify() {
 // * use the supplied parameters, first and rest
 // * use recursion (the function calls itself)
 // * use the truthify function
+// * an empty list should return an empty list
 function truthifyAll([first, ...rest]) {
   return rest
 }
