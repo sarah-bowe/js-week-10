@@ -1,0 +1,22 @@
+{
+  "name": "js-week-09",
+  "version": "0.0.1",
+  "description": "JavaScript Week 9 - Arrays and Destructuring",
+  "main": "index.js",
+  "author": "Weston Littrell",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-prettier": "^2.6.0",
+    "prettier": "^1.11.1",
+    "jest": "^22.4.2"
+  },
+  "jest": {
+    "verbose": false
+  }
+}
