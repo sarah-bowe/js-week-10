@@ -9,11 +9,12 @@
   * writing the logic and return statements
 */
 
+// Done
 // make the following function return true
 // (what is the value of first?)
 function makeItTrue() {
   const [first] = [] // leave this line as is
-  return first === '' // change this empty string to the right value
+  return first === undefined // change this empty string to the right value
 }
 
 // Write a function that takes an array and
@@ -22,6 +23,7 @@ function isEmpty() {
   return ''
 }
 
+// Done
 // Write a function that takes an array
 // and returns the length of the array
 // this one has been started for you
@@ -29,14 +31,17 @@ function isEmpty() {
 // * use the supplied parameters, first and rest
 // * use recursion (the function calls itself)
 function length([first, ...rest]) {
-  return rest
+  const length = ([first, ...rest])
+  length([])
+  return length
 }
 
 // Write a function that takes any single value
 // and returns true for truthy values or
 // false for falsey values (review p. 78)
 function truthify() {
-  return ''
+  const num = !!5
+  return num
 }
 
 // Write a function that takes an array and
